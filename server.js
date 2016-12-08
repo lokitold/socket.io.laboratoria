@@ -1,7 +1,7 @@
 var socket = require('socket.io');
 
 function startServer(store){
-	var io = socket().attach(8080);
+	var io = socket().attach((process.env.PORT || 8080));
 
 	store.subscribe(function(){
 		io.emit('state', store.getState());
