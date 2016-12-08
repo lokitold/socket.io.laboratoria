@@ -1,0 +1,25 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LizRuelas/socket.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LizRuelas/socket.io/issues"
+  },
+  "homepage": "https://github.com/LizRuelas/socket.io#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "redux": "^3.6.0",
+    "redux-node-logger": "^0.1.0",
+    "socket.io": "^1.7.1"
+  }
+}
